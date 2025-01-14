@@ -6,7 +6,7 @@ function Join() {
     return (
         <section>
             <div className="join-Home">
-                <h2>정보입력</h2>
+                <h2>정보 입력</h2>
             </div>
             <div className="text-nav">
                 <input 

@@ -20,8 +20,8 @@ function App() {
           <Routes>
             <Route path="/" element={<LoginBox />} />
             <Route path="/join" element={<Join />} />
-            <Route path='/find' element={<Find />} />
-            <Route path='passwd' element={<Passwd />} />
+            <Route path='/find' element={<Find type="id"/>} />
+            <Route path='passwd' element={<Find type="Passwd" />} />
           </Routes>
           <Footer />
         </div>
