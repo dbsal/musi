@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+//import './find.css';
 
 function Find({ type }) {
     const [userNumber, setUserNumber] = useState("");
@@ -26,6 +27,7 @@ function Find({ type }) {
                     >
                         인증번호 받기
                     </button>
+                    <button>확인</button>
                 </div>
             </div>
         </section>

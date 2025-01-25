@@ -5,7 +5,8 @@ function Header() {
     return (
         <header>
             <div className="Home-nav">
-                <h5>genie</h5>
+                <h5>
+                    <Link to="/">genie</Link></h5>
             </div>
             <div className="find-nav">
                 <h5>

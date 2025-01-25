@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './join.css';
 
 function Join() {
     const [userId, setUserId] = useState("");
@@ -26,6 +27,7 @@ function Join() {
                 <input placeholder="비밀번호 확인" />
                 <small>8~20자/영문 대문자, 소문자, 숫자, 특수문자 중 2가지 이상 조합</small>
             </div>
+            <button>가입하기</button>
         </section>
     );
 }
