@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import './find.css';
+//import './passwd.css';
 
 function Find({ type }) {
     const [userNumber, setUserNumber] = useState("");
@@ -14,11 +14,10 @@ function Find({ type }) {
                 <input
                     placeholder={type === "id" ? "생년월일 예)20010601" : "아이디를 입력하세요"}
                 />
-                <div style={{ display: "flex", alignItems: "center" }}>
+                <div>
                     <input
                         placeholder="휴대폰 번호"
                         onChange={(e) => setUserNumber(e.target.value)}
-                        style={{ marginRight: "8px" }}
                     />
                     <button
                         className="find-button"

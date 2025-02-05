@@ -1,0 +1,22 @@
+.Home-nav {
+    color: skyblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    padding-left: 150px;
+    margin: 0 auto;
+  }
+  .find-nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 10px;
+    font-size: 14px;
+    padding-top: 19px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    margin: 0px;
+  }

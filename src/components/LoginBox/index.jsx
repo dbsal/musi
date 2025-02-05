@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import './style.css';
 
 function LoginBox() {
     const [state, setState] = useState(false); // 로그인 상태 유지 여부
@@ -9,7 +10,7 @@ function LoginBox() {
             <div className="login-nav">
                 <h2>로그인</h2>
             </div>
-            <div className="text-nav">
+            <div className="login-text-nav">
                 <input placeholder="아이디" />
                 <input placeholder="비밀번호" />
                 <div className="checkbox-container">

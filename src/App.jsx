@@ -8,7 +8,6 @@ import Footer from './components/Footer'; // Footer 컴포넌트 가져오기
 import LoginBox from './components/LoginBox';
 import Find from './pages/find';
 import Join from './pages/join';
-import Passwd from './pages/passwd';
 
 
 function App() {
