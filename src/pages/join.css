@@ -1,9 +1,9 @@
 .join-Home {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     position: relative;
-    top: -200px;
+    top: -80px;
     font-weight: bold;
     gap: 10px;
     font-size: 20px;
@@ -36,17 +36,15 @@
     color: #8a8a8d;
 }
 .join-button {
-    display: block;
-    margin-left: 10px;
-    width: 124px;
-    color: #fff;
-    background-color: #0096ff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    white-space: nowrap;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #999;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
     text-align: center;
-    padding: 0;
 }
 .join-button:enabled {
     background-color: #007bff;
